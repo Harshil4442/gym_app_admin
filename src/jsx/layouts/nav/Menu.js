@@ -79,6 +79,10 @@ export const MenuList = [
                 to: 'app-calender'
             },
             {
+                title:'Classes',
+                to: 'classes'
+            },
+            {
                 title: 'Shop',
                 //to: './',
                 hasMenu : true,

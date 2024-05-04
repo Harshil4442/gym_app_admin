@@ -7,6 +7,8 @@ import './index.css'
 import './chart.css'
 import './step.css'
 
+
+import ClassDetail from './components/AppsMenu/Class/ClassDetail';
 /// Layout
 import Nav from './layouts/nav'
 import Footer from './layouts/Footer'
@@ -176,6 +178,7 @@ const Markup = () => {
 
     { url: 'email-read/:id', component: <Read/> },
     { url: 'app-calender', component: <Calendar/> },
+    { url: 'classes', component: <ClassDetail/> },
     /// Shop
     { url: 'ecom-product-grid', component: <ProductGrid />},
     { url: 'ecom-product-list', component: <ProductList/> },
